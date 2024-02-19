@@ -1,0 +1,38 @@
+Screen {
+    align: center middle;
+}
+
+ImageWidget {
+    width: auto;
+    height: auto;
+    margin: 3 1;
+    content-align: center middle;
+}
+
+#url_input {
+    width: 60;
+    height: auto;
+    margin: 2 2;
+    align: center middle;
+    content-align: center middle;
+    text-align: center;
+}
+
+#input_buttons_container {
+    align: center middle;
+    content-align: center middle;
+    margin: 2 2;
+}
+
+Button {
+    margin: 2 2;
+    align: center middle;
+}
+
+Input.-valid {
+    border: tall $success;
+}
+
+Input.-valid:focus {
+    border: tall $success;
+}

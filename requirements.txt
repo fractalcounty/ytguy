@@ -1,0 +1,5 @@
+textual
+rich
+ffmpeg-downloader
+yt-dlp
+ffmpeg-python
